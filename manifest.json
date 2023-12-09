@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Fxck USDT",
+  "version": "0.1.0",
+  "description": "BINANCE USDT WARING",
+  "author": "llwslc <llwslc@gmail.com>",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.binance.com/*"],
+      "js": ["js/contentScript.js"],
+      "css": ["css/tips.css"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "128": "logo.png"
+  }
+}

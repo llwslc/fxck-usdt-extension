@@ -1,0 +1,9 @@
+#usdt_tips {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff0000cc;
+  font-size: 10rem;
+  z-index: 999;
+}
