@@ -29,7 +29,7 @@ const checkUrl = () => {
 
   const pair = urls.pop().split('_');
   if (pair.length > 1) {
-    if (!pair[0].includes['USD'] && pair[1] === 'USDT') return true;
+    if (!pair[0].includes('USD') && pair[1] === 'USDT') return true;
   }
 };
 
