@@ -6,4 +6,5 @@
   color: #ff0000cc;
   font-size: 10rem;
   z-index: 999;
+  pointer-events: none;
 }
