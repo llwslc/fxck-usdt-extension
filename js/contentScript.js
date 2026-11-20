@@ -42,4 +42,6 @@ const main = () => {
   setTimeout(main, 1000);
 };
 
-main();
+if (window.top === window.self) {
+  main();
+}
